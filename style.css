@@ -12,6 +12,11 @@
 .main-section{
     background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
+.header-main-sec{
+    background-color: rgb(247, 247, 247);
+    border-bottom: 2px dashed gray;
+    margin-bottom: 100px;
+}
 
 .nav-cls{
     /* background-color: rgb(247, 247, 247);
@@ -20,7 +25,7 @@
 .nav-parent{
  display: flex;
  justify-content: space-around;
- margin-top: 30px;
+ padding-top: 30px;
  align-items: center;
  gap: 20px;
 }
@@ -68,20 +73,21 @@ hr{
 }
 
 
+
 /* banner styles */
 .banner-sec{
     display: flex;
-    justify-content: center;
+    justify-items: center;
     padding: 20px;
 }
 
 .banner-parent{
-    display:grid;
-  grid-template-columns: repeat(2, 1fr);
+  display:flex;
+  /* grid-template-columns: repeat(2, 1fr); */
   align-items: center;
-  margin: 0 auto;
-  justify-items: center;
-  padding: 30px;
+  margin:0 100px;
+  justify-content: center;
+  margin: auto;
 }
 
 .banner-1 h2 {
@@ -100,9 +106,28 @@ hr{
     color: white;
 }
 
+.banner-1{
+    width: 100%;
+   
+
+    
+}
+.banner-2{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
 /* main styles  */
 .main-sec{
     background-image: url("assets/bg.png");
+}
+
+.marquee-text{
+ font-size: 70px; 
+ background-color: rgba(222, 222, 199, 0.142);
+}
+.marquee-container{
+
 }
 .main-sec h1 {
     text-align: center;
@@ -350,9 +375,6 @@ hr{
     align-items: center;
     gap: 10px;
 }
-.footer-mini-1 img {
-   background-color: aliceblue;
-}
 .footer-mini-1 h1{
      width: 206.11px;
     height: 80px;
@@ -420,6 +442,12 @@ hr{
     }
     .banner-1{
         text-align: center;
+        width: 100%;
+        
+    }
+    .banner-2{
+        text-align: center;
+        width: 100%;
         
     }
     .banner-1 h2 {
