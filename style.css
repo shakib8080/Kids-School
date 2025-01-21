@@ -189,7 +189,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
-    gap: 20px;
+    gap: 0px;
     margin:  0 100px;
     margin-top: 50px;
 }
@@ -197,6 +197,7 @@ hr{
    background-color: whitesmoke;
    justify-items: center;
    border-radius: 10px 10px 10px 10px ;
+   width:80%;
      
    
 }
@@ -207,15 +208,23 @@ hr{
 }
 
 .Stories-child-1 p {
-  padding: 30px;
-  margin-top: 40px;
+  padding: 20px;
+  margin-top: 100px;
   font-size: 20px;
-font-weight: 700;
+   font-weight: 500;
+   color: (102, 102, 102)
+
+}
+
+.Stories-child-1 h3{
+    font-size: 24px;
+    font-weight: 700;
 }
 .Stories-child-2{
    display: grid;
    grid-template-columns: repeat(2,1fr);
    gap: 10px;
+   width: 100%;
   
 }
 .Stories-mini-1  {
@@ -226,8 +235,12 @@ font-weight: 700;
     border-radius: 10px 10px 10px 10px ;
 }
 .Stories-mini-1 p{
-    padding: 20px;
-    text-align: center;
+    padding: 40px;
+    font-size: 15.34px;
+    width: 161.05px;
+    height: 47.93px; 
+    margin: auto;
+   
 }
 .Stories-mini-1 img{
     border-radius: 10px 10px 0 0;
@@ -289,19 +302,23 @@ font-weight: 700;
       margin: 0 auto;
       justify-items: center;
       padding: 0;
+      width: 100%;
     }
     .banner-1{
         text-align: center;
         
     }
     .banner-1 h2 {
-        font-size: 40px;
-        font-weight: 500;
+        font-size: 30px;
+        font-weight: 300;
     }
     .banner-1 p {
         font-size: 18px;
         font-weight:350;
         
+    }
+    .banner-2 img{
+        width: 100%;
     }
     
     .stand-card-parent{
@@ -323,7 +340,9 @@ font-weight: 700;
         grid-template-columns:repeat(2,1fr);
         justify-items: center;
         width: 100%;
-        gap: 20px;
+        gap:2px;
+        padding: 0;
+        margin: auto;
     }
     .Stories-parent{
         margin: 0;
@@ -333,4 +352,30 @@ font-weight: 700;
         width: 100%;
 
     }
+    .Stories-mini-1{
+        width: 173.09px;
+        height: 179.59px;
+        margin-top: 50px;
+    }
+    .Stories-mini-1 p{
+        padding: 0px;
+        font-size: 15.34px;
+        width: 161.05px;
+        height: 47.93px; 
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .middle-btn{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    width: 110.91px;
+    height: 30px;
+    border: none;
+    position:relative ; 
+    top: -10px;
+    left: 10px; 
+    padding-bottom: 8px;
+    }
+    
+
 }
