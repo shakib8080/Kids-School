@@ -57,6 +57,10 @@
     border: none;
     color: white;
 }
+.menu-icon{
+  font-size: 50px;
+  display: none;
+}
 hr{
     background-color:rgb(226, 155, 32) ;
     height: 1px;
@@ -392,7 +396,6 @@ hr{
 @media screen and (max-width:576px) {
     .nav-parent{
         display: flex;
-        flex-direction: column;
         justify-content: space-around;
         margin-top: 30px;
         align-items: center;
@@ -538,6 +541,13 @@ hr{
         font-weight:300;
         color: rgb(255, 255, 255);
     }
-        
+    
+    .anchor a,.nav-btn {
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+   
 
 }
