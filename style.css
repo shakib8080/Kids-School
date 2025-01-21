@@ -197,11 +197,12 @@ hr{
 .lessthen-btn button {
     border: none;
     color: aliceblue;
+    font-size: 30px;
 }
 .lessthen-btn button{
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+    width:120px;
+    height:120px;
+    border-radius: 60px;
     margin-left: 10px;
     background-color: rgb(254, 163, 1);
 }
