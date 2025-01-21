@@ -163,6 +163,11 @@ hr{
 .lessthen-btn{
     text-align: center;
     margin-top: 100px;
+    border: none;
+}
+.lessthen-btn button {
+    border: none;
+    color: aliceblue;
 }
 .lessthen-btn button{
     width: 60px;
@@ -247,7 +252,7 @@ hr{
    
 }
 
-.middle-btn{
+.middle-btn-1{
     border-radius: 47.93px;
     background: rgb(60, 216, 232);
     width: 174.51px;
@@ -256,6 +261,54 @@ hr{
     position:relative ; 
     top: -30px;
     left: 10px;
+
+}
+.middle-btn-2{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    width: 174.51px;
+    height: 47.93px;
+    border: none;
+    position:relative ; 
+    top: -30px;
+    left: 10px;
+    background-color: chartreuse;
+
+}
+.middle-btn-3{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    width: 174.51px;
+    height: 47.93px;
+    border: none;
+    position:relative ; 
+    top: -30px;
+    left: 10px;
+    background-color: rgb(242, 190, 21);
+
+}
+.middle-btn-4{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    width: 174.51px;
+    height: 47.93px;
+    border: none;
+    position:relative ; 
+    top: -30px;
+    left: 10px;
+    background-color: rgb(21, 132, 242);
+
+}
+.middle-btn-5{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    width: 174.51px;
+    height: 47.93px;
+    border: none;
+    position:relative ; 
+    top: -30px;
+    left: 10px;
+    background-color: rgba(224, 242, 21, 0.903);
 
 }
 
@@ -274,6 +327,64 @@ hr{
     margin-top: 50px;
 }
 
+/* footer styles */
+.footer-m{
+    background-color:rgb(1, 172, 253) ;
+    margin-top: 100px;
+}
+
+.footer-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    padding: 100px;
+    align-items: start;
+}
+
+.footer-mini-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-mini-1 img {
+   background-color: aliceblue;
+}
+.footer-mini-1 h1{
+     width: 206.11px;
+    height: 80px;
+    font-size: 42.14px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.footer-child-1 p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.footer-child-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-child-2 h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.footer-child-2 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.footer-child-3 h2{
+    color: rgb(255, 255, 255);
+}
+.footer-mini-2{
+    display: flex;
+   gap: 15px;
+}
 
 
 /* for mobaile devaice  */
@@ -365,9 +476,10 @@ hr{
         margin: auto;
         padding-bottom: 20px;
     }
-    .middle-btn{
+    
+    .middle-btn-2{
     border-radius: 47.93px;
-    background: rgb(60, 216, 232);
+    background: rgb(173, 241, 13);
     width: 110.91px;
     height: 30px;
     border: none;
@@ -376,6 +488,56 @@ hr{
     left: 10px; 
     padding-bottom: 8px;
     }
+    .middle-btn-3{
+    border-radius: 47.93px;
+    background: rgb(12, 232, 41);
+    width: 110.91px;
+    height: 30px;
+    border: none;
+    position:relative ; 
+    top: -10px;
+    left: 10px; 
+    padding-bottom: 8px;
+    }
+    .middle-btn-4{
+    border-radius: 47.93px;
+    background: rgb(244, 86, 86);
+    width: 110.91px;
+    height: 30px;
+    border: none;
+    position:relative ; 
+    top: -10px;
+    left: 10px; 
+    padding-bottom: 8px;
+    }
+    .middle-btn-5{
+    border-radius: 47.93px;
+    background: rgb(7, 248, 59);
+    width: 110.91px;
+    height: 30px;
+    border: none;
+    position:relative ; 
+    top: -10px;
+    left: 10px; 
+    padding-bottom: 8px;
+    }
+
+    .footer-parent{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding:20px;
+        margin: auto;
+        justify-items:start ;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        gap: 10px;
+    }
     
+    .footer-child-1 p{
+        font-size :20px;
+        font-weight:300;
+        color: rgb(255, 255, 255);
+    }
+        
 
 }
