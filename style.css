@@ -613,12 +613,14 @@ hr{
      }
      .Stories-child-2{
        margin: auto;
+
         
      }
 
      .Stories-parent{
         display: flex;
         justify-items: center;
+        margin: 0px;
      }
 
      .footer-parent{
